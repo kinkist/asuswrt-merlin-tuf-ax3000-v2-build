@@ -3,7 +3,8 @@
 ## build
 ```
 # git clone https://github.com/gnuton/asuswrt-merlin.ng.git  
-# cd asuswrt-merlin.ng  
+# cd asuswrt-merlin.ng
+###### change tag for you wanted to building version, (git checkout tags/3004.388.6_2-gnuton1)  
 # docker pull gnuton/asuswrt-merlin-toolchains-docker:latest  
 # docker run -it --rm -v "$PWD:/build"  -u "docker:docker" \
        gnuton/asuswrt-merlin-toolchains-docker:latest /bin/bash
